@@ -478,7 +478,7 @@
  */
 
 // Use FAN1 as intelligent heat sink fan, disable USE_CONTROLLER_FAN
-// #define E0_AUTO_FAN_PIN CONTROLLER_FAN_PIN 
+// #define E0_AUTO_FAN_PIN CONTROLLER_FAN_PIN
 #define E0_AUTO_FAN_PIN -1
 #define E1_AUTO_FAN_PIN -1
 #define E2_AUTO_FAN_PIN -1
@@ -981,7 +981,7 @@
  * vibration and surface artifacts. The algorithm adapts to provide the best possible step smoothing at the
  * lowest stepping frequencies.
  */
-//#define ADAPTIVE_STEP_SMOOTHING
+#define ADAPTIVE_STEP_SMOOTHING
 
 /**
  * Custom Microstepping
@@ -1101,7 +1101,7 @@
    * LED Control Menu
    * Add LED Control to the LCD menu
    */
-  //#define LED_CONTROL_MENU
+  #define LED_CONTROL_MENU
   #if ENABLED(LED_CONTROL_MENU)
     #define LED_COLOR_PRESETS                 // Enable the Preset Color menu option
     //#define NEO2_COLOR_PRESETS              // Enable a second NeoPixel Preset Color menu option
